@@ -16,10 +16,10 @@ body {
 
 h1 {
     color: #1f4e79;
+    margin-bottom:0px;
 }
 
 h1.main-title {
-    margin-bottom:0px;
     font-size: 2.5em;
 }
 
@@ -28,6 +28,10 @@ h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-top: 40px;
+}
+
+h2.first-section {
+    margin-top: 10px !important;
 }
 
 h3 {
