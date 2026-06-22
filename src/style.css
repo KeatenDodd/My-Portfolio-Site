@@ -61,6 +61,7 @@ main{
     background:#fff;
     padding: 20px 40px !important;
     border-radius: 10px;
+    width:100%;
 }
 
 .experience-list {
