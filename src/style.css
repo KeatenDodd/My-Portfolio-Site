@@ -1,7 +1,20 @@
+main{
+    max-width:900px;
+    margin:0 auto;
+    padding:20px;
+}
+
 canvas{
   position: fixed;
   top: 0;
   left: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
 }
 
 body {
@@ -43,12 +56,27 @@ h3.position-title {
     margin-top: 0;
 }
 
-img{
-    max-width: 250px;
+.profile-image{
+    width: auto;
     border-radius: 50%;
-    height: auto;
+    max-height: 250px;
     display: block;
-    margin-bottom: 20px;
+    flex-shrink: 0;
+    top:0;
+    right:50px;
+}
+
+@media (max-width:600px){
+    header{
+        flex-direction: column-reverse;
+    }
+
+    .profile-image{
+        height:auto;
+        width: 100%;
+        max-height:250px;
+        object-fit: cover;
+    }
 }
 
 .details {
