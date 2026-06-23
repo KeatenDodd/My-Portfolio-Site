@@ -43,6 +43,14 @@ h3.position-title {
     margin-top: 0;
 }
 
+img{
+    max-width: 250px;
+    border-radius: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .details {
     background: #f8f8f8;
     padding: 15px;
