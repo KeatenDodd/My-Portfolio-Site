@@ -1,7 +1,12 @@
 main{
-    max-width:900px;
-    margin:0 auto;
-    padding:20px;
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    z-index: 1;
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
 }
 
 canvas{
@@ -19,9 +24,7 @@ header{
 
 body {
     font-family: Arial, sans-serif;
-    max-width: 1100px;
-    margin: auto;
-    padding: 30px;
+    margin: 0;
     line-height: 1.6;
     color: #333;
     
@@ -72,9 +75,9 @@ h3.position-title {
     }
 
     .profile-image{
-        height:auto;
-        width: 100%;
-        max-height:250px;
+        height:150px;
+        width: 150px;
+        margin:0 auto;
         object-fit: cover;
     }
 }
@@ -92,16 +95,6 @@ ul {
 
 li {
     margin-bottom: 8px;
-}
-
-main{
-    position: relative;
-    flex-direction:row;
-    z-index: 1;
-    background:#fff;
-    padding: 20px 40px !important;
-    border-radius: 10px;
-    width:100%;
 }
 
 .experience-list {
